@@ -1,0 +1,17 @@
+# Ignore Terraform state files and backups
+**/.terraform/
+**/.terraform.lock.hcl
+**/terraform.tfstate
+**/terraform.tfstate.backup
+
+# Ignore crash logs
+**/crash.log
+
+# Ignore generated plan files
+**/*.tfplan
+
+# Ignore Terraform provider overrides
+**/override.tf
+**/override.tf.json
+**/*_override.tf
+**/*_override.tf.json
